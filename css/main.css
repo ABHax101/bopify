@@ -147,6 +147,7 @@ body {
   padding: 5px;
   margin-bottom: 10px;
   color: #acb8cc;
+  -webkit-text-stroke: 0.5px black;
   cursor: pointer;
   width: 50px;
   height: 50px;
@@ -161,6 +162,7 @@ body {
     padding: 5px;
     margin-right: 10px;
     color: #acb8cc;
+	-webkit-text-stroke: 0.5px black;
     cursor: pointer;
     width: 40px;
     height: 40px;
@@ -183,6 +185,7 @@ body {
 @media screen and (min-width: 500px) {
   .player-controls__item:hover {
     color: #532ab9;
+	-webkit-text-stroke: 0.5px black;
   }
   .player-controls__item:hover::before {
     opacity: 1;
@@ -192,6 +195,7 @@ body {
 @media screen and (max-width: 576px), (max-height: 500px) {
   .player-controls__item:active {
     color: #532ab9;
+	-webkit-text-stroke: 0.5px black;
   }
   .player-controls__item:active::before {
     opacity: 1;
@@ -207,6 +211,7 @@ body {
   font-size: 95px;
   filter: drop-shadow(0 11px 6px rgba(172, 184, 204, 0.45));
   color: #fff;
+  -webkit-text-stroke: 0.5px black;
   width: auto;
   height: auto;
   display: inline-flex;
@@ -223,6 +228,7 @@ body {
 }
 .player-controls__item.-favorite.active {
   color: red;
+  -webkit-text-stroke: 0.5px black;
 }
 
 [v-cloak] {
@@ -245,6 +251,7 @@ body {
 }
 .progress__duration {
   color: #d0d8e6;
+  -webkit-text-stroke: 0.5px black;
   font-weight: 700;
   font-size: 20px;
   opacity: 0.5;
@@ -252,6 +259,7 @@ body {
 .progress__time {
   margin-top: 2px;
   color: #d0d8e6;
+  -webkit-text-stroke: 0.5px black;
   font-weight: 700;
   font-size: 16px;
   opacity: 0.7;
@@ -262,6 +270,7 @@ body {
   width: 100%;
   cursor: pointer;
   background-color: #d0d8e6;
+  -webkit-text-stroke: 0.5px black;
   display: inline-block;
   border-radius: 10px;
 }
@@ -270,11 +279,13 @@ body {
   height: inherit;
   width: 0%;
   background-color: #a3b3ce;
+  -webkit-text-stroke: 0.5px black;
   border-radius: 10px;
 }
 
 .album-info {
   color: #d0d8e6;
+  -webkit-text-stroke: 0.5px black;
   flex: 1;
   padding-right: 60px;
   user-select: none;
@@ -308,22 +319,6 @@ body {
     font-size: 18px;
     min-height: 50px;
   }
-}
-
-.github-btn {
-  position: absolute;
-  right: 40px;
-  bottom: 50px;
-  text-decoration: none;
-  padding: 15px 25px;
-  border-radius: 4px;
-  box-shadow: 0px 4px 30px -6px rgba(36, 52, 70, 0.65);
-  background: #24292e;
-  color: #fff;
-  font-weight: bold;
-  letter-spacing: 1px;
-  font-size: 16px;
-  transition: all 0.3s ease-in-out;
 }
 @media screen and (min-width: 500px) {
   .github-btn:hover {
