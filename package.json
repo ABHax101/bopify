@@ -3,6 +3,6 @@
     "http-server": "^14.1.1"
   },
   "scripts": {
-    "start": "clear; node_modules/http-server/bin/http-server ."
+    "start": "chmod a+rx node_modules/http-server/bin/http-server; clear; node_modules/http-server/bin/http-server ."
   }
 }
